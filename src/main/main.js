@@ -78,7 +78,7 @@ class Main extends React.Component {
 
                     <div className="contenedor-boton"> {this.state.etiqueta}</div>
                     {load && (<img src={Load} alt="no img" />)}
-                    <p className="p">by jqvalenzuela</p>
+                    <p className="p">by jqvalenzuela10</p>
                 </div>
 
                 <Buho />
