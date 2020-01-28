@@ -1,0 +1,81 @@
+
+:root{
+    --mainColor:#38343c;
+    --sub-color:#249b9f;
+    --colorLetra:white
+}
+
+body{
+background-color: var(--mainColor);
+height: 98%;
+}
+
+
+.h1{
+    font-family: 'Abril Fatface', cursive;
+    color: var(--colorLetra);
+    font-size: 60px;
+    margin: 0;
+    padding: 0
+}
+.p{
+    color:var(--colorLetra);
+}
+
+#root{
+height: 86%;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: var(--sub-color);            
+    justify-content: center;align-items: center;
+    
+}
+.contenedor-hijo{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;        
+    
+    
+}
+.contenedor-boton{
+    width: 100%;
+    height: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.boton-jugar{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    letter-spacing: 3px;
+    background: #FFD800;
+    display: flex;
+    flex-direction: row;
+}
+.boton-jugar:hover{
+    background-color: #FFAA00;
+}
+.contenedor-boton2{
+    display: flex;
+    flex-direction: column;
+  
+}
+.contenedor-configuracion{
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.configuration{
+    margin-top: 10px;
+    cursor: pointer;
+}
